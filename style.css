@@ -34,8 +34,7 @@ body {
 
 @media (max-width: 812px) {
     #mainwrapper {
-        flex-flow: column nowrap;
-        align-items: center;
+        flex-flow: column wrap;
     }
     #title {
         width: auto;
@@ -43,6 +42,12 @@ body {
         margin-bottom: 15px;
     }
     .container {
+        height: 2600px;
+        margin: auto;
+        align-content: center;
+    }
+    img {
+        width: 150px;
         height: auto;
     }
 }
